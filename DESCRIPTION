@@ -1,10 +1,13 @@
 Package: JUnitProtocol.XiMpLe
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.3.0)
+Title: Run RUnit with XiMpLe
+Version: 0.0.1
+Authors@R: person("arek", "Bee", email = "arekbee", role = c("aut", "cre"))
+Maintainer:  Arek Bee <arekbee@gmail.com>
+Description: It is an extenstion for RUnit package. 
+Depends: R (>= 2.9.0)
 License: What license is it under?
+Imports: RUnit, XiMpLe
+Suggests: XML
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
