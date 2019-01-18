@@ -1,7 +1,7 @@
 
 
 printJUnitProtocol.XiMpLe <- function(testData,fileName = "") {
-    errInfo <- getErrors(testData)
+    errInfo <- RUnit::getErrors(testData)
     xml.testsuites <- XiMpLe::XMLNode("testsuites", attrs = list(
                                    errors = errInfo$nErr,
                                    failures = errInfo$nFail,

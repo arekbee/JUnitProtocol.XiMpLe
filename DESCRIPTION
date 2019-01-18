@@ -1,13 +1,17 @@
 Package: JUnitProtocol.XiMpLe
-Title: Run RUnit with XiMpLe
+Type: Package
+Title: Run RUnit with XiMpLe package instead of XML package 
 Version: 0.0.1
+Date: 2019-01-17
 Authors@R: person("arek", "Bee", email = "arekbee", role = c("aut", "cre"))
-Maintainer:  Arek Bee <arekbee@gmail.com>
-Description: It is an extenstion for RUnit package. 
+Maintainer: Arek Bee <arekbee@gmail.com>
+Description: It is an extenstion for RUnit package. XML requires libxml2 library and this package does not need to have it.
 Depends: R (>= 2.9.0)
-License: What license is it under?
 Imports: RUnit, XiMpLe
 Suggests: XML
 Encoding: UTF-8
 LazyData: true
+License: GPL-3 | file LICENSE
+URL: https://github.com/bnbsystems/JUnitProtocol.XiMpLe
+BugReports: https://github.com/bnbsystems/JUnitProtocol.XiMpLe/issues
 RoxygenNote: 6.0.1
