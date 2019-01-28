@@ -1,3 +1,4 @@
+.*Rproj$
 ^.*\.Rproj$         # Automatically added by RStudio,
 ^\.Rproj\.user$     # used for temporary files.
 ^README\.Rmd$       # An Rmarkdown file used to generate README.md
@@ -8,7 +9,6 @@
 ^\.httr-oauth$
 ^NEWS\.md$
 ^README\.md$
-
 #build files
 ^appveyor\.yml
 \.travis\.yml
@@ -24,17 +24,12 @@
 \.\.Rcheck/
 ^\.git$
 ^\.\.Rcheck$
-
 vignettes/figure$
 vignettes/cache$
-
-
 Example/
 README\.Rmd
 cran-comments\.md
-ddt\.Rproj
-ddt\.rxproj
-ddt\.sln
 packrat/
 pub/
 tests/
+.gradle
