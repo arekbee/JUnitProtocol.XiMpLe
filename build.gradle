@@ -1,0 +1,3 @@
+plugins {
+  id "com.github.arekbee.gradle-R-plugin" version "0.12"
+}

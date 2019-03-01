@@ -33,3 +33,11 @@ packrat/
 pub/
 tests/
 .gradle
+gradle*
+build.cmd
+build/
+packrat/lib*
+packrat/src*
+gradle.properties
+.*report.html$
+README.md

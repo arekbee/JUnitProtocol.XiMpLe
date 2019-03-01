@@ -49,3 +49,6 @@ printJUnitProtocol.XiMpLe <- function(testData,fileName = "") {
     }
     return(invisible(TRUE))
 }
+
+
+printJUnitProtocol <- printJUnitProtocol.XiMpLe
