@@ -1,4 +1,4 @@
-Package: JUnitProtocol.XiMpLe
+Package: RUnit.XiMpLe
 Type: Package
 Title: Run RUnit with XiMpLe package instead of XML package 
 Version: 0.0.1

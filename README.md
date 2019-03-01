@@ -1,1 +1,1 @@
-# JUnitProtocol.XiMpLe
+# RUnit.XiMpLe
